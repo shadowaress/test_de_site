@@ -1,0 +1,27 @@
+/*
+Test css pour HTML
+<a description="Steven Giguere" href="mailto:shadowaress@gmail.com"> Écrivez moi </a>
+*/
+
+#lorem_ipsum {
+	border: 2px;
+	border-color: aquamarine;
+	border-style: solid;
+	text-align: center;
+}
+
+/* Animation code */
+@keyframes background-change-color {
+	from {background-color: lightblue;}
+	to {background-color: ivory;}
+}
+
+#animation-wow {
+	width: 50%;
+	height: 25%;
+	background-color: blueviolet;
+	animation-name: background-change-color;
+	animation-duration: 6s;
+	vertical-align: middle;
+	align-content: center;
+}
